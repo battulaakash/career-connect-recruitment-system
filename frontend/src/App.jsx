@@ -5,6 +5,11 @@ import Login from "./pages/auth/Login";
 import ApplicantDashboard from "./pages/applicant/ApplicantDashboard";
 import HrDashboard from "./pages/hr/HrDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
+import JobsList from "./pages/applicant/JobsList";
+import JobDetails from "./pages/applicant/JobDetails";
+import AppliedJobs from "./pages/applicant/AppliedJobs";
+import SavedJobs from "./pages/applicant/SavedJobs";
+import ApplicantProfile from "./pages/applicant/ApplicantProfile";
 
 function App() {
   return (
@@ -21,7 +26,15 @@ function App() {
           </div>
         }
       />
+      <Route path="/applicant/jobs" element={<JobsList />} />
 
+      <Route path="/applicant/jobs/:id" element={<JobDetails />} />
+
+      <Route path="/applicant/applied-jobs" element={<AppliedJobs />} />
+
+      <Route path="/applicant/saved-jobs" element={<SavedJobs />} />
+
+      <Route path="/applicant/profile" element={<ApplicantProfile />} />
       <Route
         path="/jobs"
         element={
@@ -32,10 +45,7 @@ function App() {
         }
       />
 
-      <Route
-        path="/applicant/dashboard"
-        element={<ApplicantDashboard />}
-      />
+      <Route path="/applicant/dashboard" element={<ApplicantDashboard />} />
 
       <Route path="/hr/dashboard" element={<HrDashboard />} />
 
