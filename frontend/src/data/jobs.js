@@ -1,0 +1,67 @@
+export const jobs = [
+  {
+    id: 1,
+    title: "Frontend Developer",
+    company: "TechSphere",
+    location: "Bengaluru",
+    jobType: "Full Time",
+    experience: "0-2 Years",
+    salary: "₹6-10 LPA",
+    skills: ["React", "JavaScript", "Bootstrap", "HTML", "CSS"],
+    description:
+      "We are looking for a frontend developer to build responsive and user-friendly web applications.",
+    postedDate: "2 days ago",
+  },
+  {
+    id: 2,
+    title: "Java Backend Developer",
+    company: "CodeCraft Labs",
+    location: "Pune",
+    jobType: "Full Time",
+    experience: "1-3 Years",
+    salary: "₹7-12 LPA",
+    skills: ["Java", "Spring Boot", "MySQL", "REST API"],
+    description:
+      "Develop secure and scalable backend services using Java and Spring Boot.",
+    postedDate: "1 day ago",
+  },
+  {
+    id: 3,
+    title: "React Developer Intern",
+    company: "Nova Systems",
+    location: "Hyderabad",
+    jobType: "Internship",
+    experience: "Fresher",
+    salary: "₹20,000/month",
+    skills: ["React", "JavaScript", "Git", "CSS"],
+    description:
+      "Join our frontend team and work on modern React applications.",
+    postedDate: "Today",
+  },
+  {
+    id: 4,
+    title: ".NET Developer",
+    company: "CloudEdge",
+    location: "Mumbai",
+    jobType: "Full Time",
+    experience: "1-3 Years",
+    salary: "₹6-9 LPA",
+    skills: ["C#", "ASP.NET Core", "SQL Server", "Web API"],
+    description:
+      "Build enterprise applications using ASP.NET Core and Web API.",
+    postedDate: "3 days ago",
+  },
+  {
+    id: 5,
+    title: "UI/UX Designer",
+    company: "Pixel Studio",
+    location: "Remote",
+    jobType: "Remote",
+    experience: "0-2 Years",
+    salary: "₹5-8 LPA",
+    skills: ["Figma", "Wireframing", "Prototyping", "UI Design"],
+    description:
+      "Design clean and intuitive interfaces for web and mobile applications.",
+    postedDate: "4 days ago",
+  },
+];
