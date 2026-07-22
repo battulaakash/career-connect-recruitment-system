@@ -12,9 +12,10 @@ import SavedJobs from "./pages/applicant/SavedJobs";
 import ApplicantProfile from "./pages/applicant/ApplicantProfile";
 import PostJob from "./pages/hr/PostJob";
 import ManageJobs from "./pages/hr/ManageJobs";
-import Applicants from "./pages/hr/Applicants";
-import InterviewSchedule from "./pages/hr/InterviewSchedule";
-import HrProfile from "./pages/hr/HrProfile";
+// import Applicants from "./pages/hr/Applicants";
+// import InterviewSchedule from "./pages/hr/InterviewSchedule";
+// import HrProfile from "./pages/hr/HrProfile";
+
 
 function App() {
   return (
@@ -24,9 +25,11 @@ function App() {
       <Route path="/hr/dashboard" element={<HrDashboard />} />
       <Route path="/hr/post-job" element={<PostJob />} />
       <Route path="/hr/manage-jobs" element={<ManageJobs />} />
-      <Route path="/hr/applicants" element={<Applicants />} />
+      {/* <Route path="/hr/applicants" element={<Applicants />} />
       <Route path="/hr/interviews" element={<InterviewSchedule />} />
-      <Route path="/hr/profile" element={<HrProfile />} />
+      <Route path="/hr/profile" element={<HrProfile />} /> */}
+      <Route path="/hr/post-job" element={<PostJob />} />
+      <Route path="/hr/manage-jobs" element={<ManageJobs />} />
       <Route
         path="/register"
         element={
